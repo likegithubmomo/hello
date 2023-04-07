@@ -23,7 +23,7 @@
 
     function handlelogin(){
         console.log("go play minecraft and stop abusing dev tools")
-        window.location.replace("http://localhost:8080/#/login")
+        window.location.replace("http://localhost:5173/#/login")
     }
     function handleLogout(){
         console.log("go play minecraft and stop abusing dev tools")
@@ -32,7 +32,7 @@
             console.log("alright, i logged you out NOW go play minecraft")
             isLoggedIn = false
         })
-        window.location.replace("http://localhost:8080/#/login")
+        window.location.replace("http://localhost:5173/#/login")
     }
 </script>
 

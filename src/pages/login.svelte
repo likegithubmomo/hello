@@ -10,7 +10,7 @@
         ui.start("#firebaseui-auth-container", {
         signInOptions: [
                 firebase.auth.EmailAuthProvider.PROVIDER_ID
-            ], signInSuccessUrl:"http://localhost:8080"
+            ], signInSuccessUrl:"http://localhost:5173"
         })
     })
 
