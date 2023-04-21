@@ -8,7 +8,7 @@
 
 <style>
     .camp-widget {
-        width: 250px;
+        width: 700px;
         height: 300px;
         background-color: white;
         border-radius: 5px;

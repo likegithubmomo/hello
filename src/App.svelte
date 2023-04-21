@@ -22,7 +22,6 @@
 <style>
   main {
 		position: relative;
-		background: linear-gradient(to bottom right, #ca01e1, #e50301);
 		min-height: 98.5vh;
 		background-size: cover;
     width: 100vw;

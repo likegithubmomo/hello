@@ -63,8 +63,6 @@
             </li>
         {/each}
     </ul>
-    <button class="swiper-button-next"></button>
-    <button class="swiper-button-next"></button>
     {/if}
 </div>
 <style>
@@ -79,9 +77,16 @@
     ul {
         text-align: center;
         display: flex;
+        flex-direction: column;
         gap: 60px;
         width: 1200px;
         height: auto;
         margin: 0 auto;
+        overflow-x: hidden
+    }
+    .swiper-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 </style>

@@ -39,14 +39,14 @@
     
 <div class="searchBar">
     <div class="logo">
-        <img src="./images/LOGO-removebg-preview.png" alt="custom camp logo"/>
+        <img src="./LOGO-removebg-preview.png" alt="custom camp logo"/>
     </div>
     {#if !fireauth}
         <div>
             <label for="searchBar"> What camp are you looking for today? </label>
             <form on:submit|preventDefault={search}>
                 <input name="searchBar" type="text" bind:value={query}>
-                <button type="submit"><img src="./images/searching (2).png" alt="A search icon as if you need to know" class="searchlogo"></button>
+                <button type="submit"><img src="./searching (2).png" alt="A search icon as if you need to know" class="searchlogo"></button>
             </form>
         </div>
     {/if}

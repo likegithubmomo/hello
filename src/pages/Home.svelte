@@ -3,6 +3,5 @@
 
 </script>
 <div class="home">
-    Hello!
     <SearchBar />
 </div>

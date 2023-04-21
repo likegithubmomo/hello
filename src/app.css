@@ -22,13 +22,16 @@ a {
 a:hover {
   color: #535bf2;
 }
-
+html {
+  height: 100%
+}
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  height: 100%
 }
 
 h1 {
@@ -63,7 +66,20 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.gradient {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom right,#30e8bf, #ff8235);
+}
 
+body {
+  overflow-y: scroll;
+  height: 100%;
+  background: linear-gradient(to bottom right,#30e8bf, #ff8235);
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
